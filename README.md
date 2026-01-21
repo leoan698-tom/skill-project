@@ -21,6 +21,26 @@
     *   `references/`: 包含详细的设计规范、组件文档和故障排除指南
     *   `SKILL.md`: 核心技能定义文档，描述了完整的工作流和提示词工程
 
+## AI 技能包：.trae/skills
+
+位于 `.trae/skills/` 目录下，包含经过整合的 AI 技能套件 `rn-skill-suite`，旨在提供更细粒度、更专业的 React Native 开发指导。
+
+### rn-skill-suite
+
+这是一个综合性的技能包，整合了从设计系统到最终交付的全流程技能。
+
+*   **入口文件**：`rn-skill-suite/SKILL.md` - 技能包的统一入口。
+*   **详细文档**：`rn-skill-suite/references/` - 包含以下子技能：
+    *   `main_skill.md`: 设计系统初始化与核心工作流。
+    *   `sub_skill_1.md`: 组件知识库构建。
+    *   `sub_skill_2.md`: 单组件精确生成。
+    *   `sub_skill_3.md`: 完整页面生成。
+    *   `sub_skill_4.md`: 风格一致性校准。
+    *   `sub_skill_5.md`: 多轮迭代优化。
+    *   `sub_skill_6.md`: 组件库回补。
+    *   `sub_skill_7.md`: 跨设备适配验证。
+    *   `sub_skill_8.md`: AI 工具链集成加速。
+
 ## 使用说明
 
 本项目主要配合 AI 编程助手使用，作为上下文知识库，帮助 AI 更准确、规范地生成 React Native 代码。
