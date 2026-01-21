@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+
+data/
+
+rn-page-generator.zip
+
+node_modules/
+dist/
+build/
+
+__pycache__/
+*.pyc
+
+.DS_Store
+Thumbs.db
